@@ -1,0 +1,132 @@
+.book{
+   width: 100%;
+    overflow: auto;
+    float: left;
+    background-color:white;
+}
+.nav-brand{
+    color: white;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cards{
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    background-color:wheat;
+    float: left;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 0px solid #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cards:hover{
+    -webkit-box-shadow: 0px 0px 11px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 11px 5px rgba(0,0,0,0.75);
+}
+.ii{
+    width: 100%;
+    height:150px;
+    border-radius: 13px 13px 0px 0px;
+    -moz-border-radius: 13px 23px 0px 0px;
+    -webkit-border-radius: 13px 13px 0px 0px;
+    border: 0px solid #000000;
+}
+
+.content{
+    display:flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bodi{
+    background-color: gainsboro;
+}
+
+
+.card-info{
+    margin:10px;
+}
+
+.content-header{
+    max-width: 500px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.9;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+.featured-items{
+    padding: 10px;
+    margin:10px;
+    
+}
+.notification{
+    width: 20%;
+    float: left;
+    height: 100%;
+}
+.home-content{
+    width: 80%;
+    float: right;
+    background-color: silver;
+}
+svg{
+    display: flex;
+    float: left;
+}
+.theme-img{
+    width: 100%;
+    height: 650px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    color: #002f34;
+    background-color: wheat;
+}
+.row >ul{
+    list-style-type:none ;
+
+}
+.row ul li{
+    float: none;
+}
+.col ul li{
+    margin-left: 15px;
+}
+.row{
+    display: flex;
+    margin: 10px;
+    margin: 10px;
+    float: left;
+    width: 100%;
+}
+.col{
+    width: 25%;
+    margin: 20px;
+}
+span{
+    font-weight: 400;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    background-color: lavender;
+    
+}
+.box-item{
+    display: block;
+    margin: 20px;
+    text-align: center;
+}
+.box-item-img{
+    
+}
